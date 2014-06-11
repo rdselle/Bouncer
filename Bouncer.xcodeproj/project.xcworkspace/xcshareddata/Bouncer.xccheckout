@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BA24C462-43F1-4797-9D86-80849A5C678E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bouncer</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A053CF9D-B96A-42D1-9AFA-8CB2EFF1348F</key>
+		<string>https://github.com/rdselle/bouncer.git</string>
+		<key>FDBF21DA-CC40-41C0-B6DA-BD153CFB1D99</key>
+		<string>https://github.com/rdselle/hello_world.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>bouncer/Bouncer.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2D7497EA-449B-4B2A-B618-3EDF0B7FAAC8</key>
+		<string>../..</string>
+		<key>A053CF9D-B96A-42D1-9AFA-8CB2EFF1348F</key>
+		<string>../../Bouncer</string>
+		<key>FDBF21DA-CC40-41C0-B6DA-BD153CFB1D99</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/rdselle/hello_world.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FDBF21DA-CC40-41C0-B6DA-BD153CFB1D99</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2D7497EA-449B-4B2A-B618-3EDF0B7FAAC8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bouncer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A053CF9D-B96A-42D1-9AFA-8CB2EFF1348F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Bouncer</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FDBF21DA-CC40-41C0-B6DA-BD153CFB1D99</string>
+			<key>IDESourceControlWCCName</key>
+			<string>development</string>
+		</dict>
+	</array>
+</dict>
+</plist>
