@@ -118,7 +118,7 @@ typedef enum{
                                                  withHandler:^(CMAccelerometerData *accelerometerData, NSError *error){
                                                      CGFloat x = (accelerometerData.acceleration.x / 5);
                                                      CGFloat y = (accelerometerData.acceleration.y / 5);
-                                                     switch(self.interfaceOrientation){
+                                                     switch([[UIApplication sharedApplication] statusBarOrientation]){
                                                          case UIInterfaceOrientationLandscapeRight:
                                                              self.gravity.gravityDirection = CGVectorMake(-y, -x);
                                                              break;
@@ -130,6 +130,9 @@ typedef enum{
                                                              break;
                                                          case UIInterfaceOrientationPortraitUpsideDown:
                                                              self.gravity.gravityDirection = CGVectorMake(-x, y);
+                                                             break;
+                                                         case UIInterfaceOrientationUnknown:
+                                                             self.gravity.gravityDirection = CGVectorMake(0.0, 0.0);
                                                              break;
                                                      }
                                                  }];

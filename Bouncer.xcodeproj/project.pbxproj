@@ -13,8 +13,7 @@
 		AA577B961918180A0067E9A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA577B941918180A0067E9A1 /* InfoPlist.strings */; };
 		AA577B981918180A0067E9A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA577B971918180A0067E9A1 /* main.m */; };
 		AA577B9C1918180A0067E9A1 /* BouncerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA577B9B1918180A0067E9A1 /* BouncerAppDelegate.m */; };
-		AA577B9F1918180A0067E9A1 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA577B9D1918180A0067E9A1 /* Main_iPhone.storyboard */; };
-		AA577BA21918180A0067E9A1 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA577BA01918180A0067E9A1 /* Main_iPad.storyboard */; };
+		AA577B9F1918180A0067E9A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA577B9D1918180A0067E9A1 /* Main.storyboard */; };
 		AA577BA51918180A0067E9A1 /* BouncerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA577BA41918180A0067E9A1 /* BouncerViewController.m */; };
 		AA577BA71918180A0067E9A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA577BA61918180A0067E9A1 /* Images.xcassets */; };
 		AA577BAE1918180A0067E9A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA577BAD1918180A0067E9A1 /* XCTest.framework */; };
@@ -23,6 +22,7 @@
 		AA577BB81918180A0067E9A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA577BB61918180A0067E9A1 /* InfoPlist.strings */; };
 		AA577BBA1918180A0067E9A1 /* BouncerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA577BB91918180A0067E9A1 /* BouncerTests.m */; };
 		AA79D691192B98B90004F977 /* BlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA79D690192B98B90004F977 /* BlockView.m */; };
+		AAA95E881CD4645200B7FA5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAA95E871CD4645200B7FA5E /* LaunchScreen.storyboard */; };
 		AAAC12FF1937AFEE0073786C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAC12FE1937AFEE0073786C /* Constants.m */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +47,7 @@
 		AA577B991918180A0067E9A1 /* Bouncer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bouncer-Prefix.pch"; sourceTree = "<group>"; };
 		AA577B9A1918180A0067E9A1 /* BouncerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BouncerAppDelegate.h; sourceTree = "<group>"; };
 		AA577B9B1918180A0067E9A1 /* BouncerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncerAppDelegate.m; sourceTree = "<group>"; };
-		AA577B9E1918180A0067E9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		AA577BA11918180A0067E9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		AA577B9E1918180A0067E9A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA577BA31918180A0067E9A1 /* BouncerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BouncerViewController.h; sourceTree = "<group>"; };
 		AA577BA41918180A0067E9A1 /* BouncerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncerViewController.m; sourceTree = "<group>"; };
 		AA577BA61918180A0067E9A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		AA577BB91918180A0067E9A1 /* BouncerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BouncerTests.m; sourceTree = "<group>"; };
 		AA79D68F192B98B90004F977 /* BlockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlockView.h; sourceTree = "<group>"; };
 		AA79D690192B98B90004F977 /* BlockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockView.m; sourceTree = "<group>"; };
+		AAA95E871CD4645200B7FA5E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AAAC12FD1937AFEE0073786C /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		AAAC12FE1937AFEE0073786C /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,8 +122,7 @@
 			children = (
 				AA577B9A1918180A0067E9A1 /* BouncerAppDelegate.h */,
 				AA577B9B1918180A0067E9A1 /* BouncerAppDelegate.m */,
-				AA577B9D1918180A0067E9A1 /* Main_iPhone.storyboard */,
-				AA577BA01918180A0067E9A1 /* Main_iPad.storyboard */,
+				AA577B9D1918180A0067E9A1 /* Main.storyboard */,
 				AA577BA31918180A0067E9A1 /* BouncerViewController.h */,
 				AA577BA41918180A0067E9A1 /* BouncerViewController.m */,
 				AA79D68F192B98B90004F977 /* BlockView.h */,
@@ -131,6 +130,7 @@
 				AAAC12FD1937AFEE0073786C /* Constants.h */,
 				AAAC12FE1937AFEE0073786C /* Constants.m */,
 				AA577BA61918180A0067E9A1 /* Images.xcassets */,
+				AAA95E871CD4645200B7FA5E /* LaunchScreen.storyboard */,
 				AA577B921918180A0067E9A1 /* Supporting Files */,
 			);
 			path = Bouncer;
@@ -210,9 +210,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Bouncer;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Cardinal Solutions";
 				TargetAttributes = {
+					AA577B871918180A0067E9A1 = {
+						DevelopmentTeam = 869YR66HM8;
+					};
 					AA577BAB1918180A0067E9A1 = {
 						TestTargetID = AA577B871918180A0067E9A1;
 					};
@@ -242,9 +245,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA577BA21918180A0067E9A1 /* Main_iPad.storyboard in Resources */,
 				AA577BA71918180A0067E9A1 /* Images.xcassets in Resources */,
-				AA577B9F1918180A0067E9A1 /* Main_iPhone.storyboard in Resources */,
+				AAA95E881CD4645200B7FA5E /* LaunchScreen.storyboard in Resources */,
+				AA577B9F1918180A0067E9A1 /* Main.storyboard in Resources */,
 				AA577B961918180A0067E9A1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,20 +302,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		AA577B9D1918180A0067E9A1 /* Main_iPhone.storyboard */ = {
+		AA577B9D1918180A0067E9A1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AA577B9E1918180A0067E9A1 /* Base */,
 			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		AA577BA01918180A0067E9A1 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AA577BA11918180A0067E9A1 /* Base */,
-			);
-			name = Main_iPad.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		AA577BB61918180A0067E9A1 /* InfoPlist.strings */ = {
@@ -345,6 +340,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -406,11 +402,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bouncer/Bouncer-Prefix.pch";
 				INFOPLIST_FILE = "Bouncer/Bouncer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cardinalsolutions.rsellers.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -419,11 +419,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bouncer/Bouncer-Prefix.pch";
 				INFOPLIST_FILE = "Bouncer/Bouncer-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cardinalsolutions.rsellers.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -444,6 +448,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "BouncerTests/BouncerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cardinalsolutions.rsellers.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -462,6 +467,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bouncer/Bouncer-Prefix.pch";
 				INFOPLIST_FILE = "BouncerTests/BouncerTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cardinalsolutions.rsellers.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
